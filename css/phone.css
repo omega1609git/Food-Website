@@ -1,0 +1,120 @@
+/* body{
+    background-color: red   ;
+} */
+.h-primary {
+    justify-content: center;
+    text-align: center;
+    font-size: 2.3rem  ;
+    margin: 7px 0px  ;
+}
+.h-secondary{
+    font-size: 1.5rem ;
+    padding: 4px   ;
+    text-align: center;
+}
+
+
+
+
+
+/* navigation section  */
+#navbar{
+    flex-direction:  column ;
+}
+#navbar ul li a{
+    font-size: 1rem ;
+    padding: 0px 7px  ;
+}
+#navbar ul {
+    margin-top: -9px;
+    margin-bottom: 16px;
+}
+
+
+ /* home section   */
+#home{
+    height: 490px  ;
+    padding: 3px  68px   ;
+}
+#home h1{
+    font-size: 2.3rem;
+    /* margin: 5px 30px; */
+    margin-bottom: 18px;
+    padding: 10px;
+}
+#home p{
+    font-size: 1.2rem ;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+
+
+/* services section  */
+.services-container{
+    margin-top: 25px   ;
+}
+#services{
+    /* display: flex  ; */
+    flex-direction:  column;
+    margin: 0px   ;
+    /* padding: 5px ; */
+}
+#services .box img{
+    height: 150px   ;
+    width: 150px ; 
+    display: block;
+    margin: auto;
+}
+
+
+
+
+/* clients section   */
+#client-section h1{
+    font-size: 2.2rem    ;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+#clients {
+    flex-wrap: wrap   ;
+}
+
+.client-item{
+    padding: 1px  ;
+    width: 24% ;
+}
+#clients img{
+    height:  50px ;
+    width: 50px  ;
+    /* height: 24%;
+    width: 24% ; */
+    margin-bottom: 10px  ;
+    padding: 10px ;
+}
+
+
+
+/* contact us  */
+
+#contact h1{
+    font-size: 2.2rem;
+    padding-top: 30px;
+    margin-bottom: 16px;
+}
+#contact-box label{
+    font-size: 1.1rem;
+}
+#contact-box input, #contact-box textarea{
+    width: 100%;
+    padding: 1rem  ;
+    border-radius: 10px ;
+    font-size: 0.9rem  ;
+}
+
+
+
